@@ -1,0 +1,74 @@
+.app {
+  text-align: center;
+  background-color: #e9f3f3;
+  font-family: sans-serif;
+}
+
+body, html {
+  text-align: center;
+  background-color: #e9f3f3;
+  font-family: sans-serif;
+}
+
+.login {
+  padding-top: 10%;
+}
+
+.login__username {
+  margin: 1rem;
+  width: 20%;
+  height: 2rem;
+}
+
+
+p,span{
+  color: grey;
+  font-size: 1rem;
+  margin: 50 auto 0 auto;
+}
+
+h3,h2 {
+  color:#11999e;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+}
+
+.message-self {
+  text-align: right;
+}
+
+.add__form {
+    padding: 20px;
+    border-top: 1px solid lightgrey;
+}
+
+.send__button, .controls__logout,.login__button {
+    background-color: lightblue;
+    border-radius: 7px;
+    width: 5rem;
+    height: 2rem;
+}
+.add__message {
+  margin: 0.5rem;
+}
+
+.message-content, .users{
+  padding: 3% 5%;
+  margin: 20px 10%;
+  background-color:#c6eded;
+  border-radius: 30px;
+}
+
+.err-message {
+  color: red;
+}
+
+input {
+  width: 75%;
+  height: 2rem;
+}
+
+
